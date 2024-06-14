@@ -218,12 +218,12 @@ section >div{
 
 .home_social {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
 
 .home_social-icon {
   width: max-content;
-  margin-bottom: var(--mb-2);
+  margin-right: var(--mb-3);
   font-size: 1.5rem;
   color: var(--second-color);
 }
@@ -235,7 +235,7 @@ section >div{
 .home_img {
   right: 0;
   bottom: 0;
-  width: 100px;
+  width: 400px;
 }
 .home_img image{
   width: 100%;
@@ -486,13 +486,13 @@ section >div{
   .home_data {
     align-self:flex-end;
   }
-  .home_image {
-    margin-top: 30px;
+  .home_img {
+    margin-top: 50px;
     margin-left: 50px;
 
   }
   .home_social {
-    padding-top: 0;
+    padding-top: 1.5rem;
     padding-bottom: 2.5rem;
     flex-direction: row;
     align-self: flex-end;
