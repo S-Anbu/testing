@@ -4,6 +4,7 @@
 :root {
   --header-height: 1rem;
   --font-semi: 600;
+  
 }
 
 /* Colors */
@@ -205,6 +206,7 @@ img {
 }
 
 .home_data {
+  display: flex;
   align-self: center;
 }
 
@@ -240,7 +242,7 @@ section >div{
 .home_img {
   position: relative;
   top: 30px;
-  right: 0;
+  left:20px;
   bottom: 0;
   width: 400px;
 }
